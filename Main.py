@@ -8,4 +8,4 @@ async def on_ready():
   print(bot.user.name)
   print(bot.user.id)
   
-bot.login(os.
+bot.run(os.environ['BOT_TOKEN'])
